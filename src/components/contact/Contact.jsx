@@ -6,7 +6,7 @@ const Contact = () => {
     <section id='contact'>
 
       <div class="card">  
-        <h2> Contact Me </h2>
+        <h2 class="h2a"> Contact Me  </h2>
         <h2> Email id: atulgupta.kr4@gmail.com </h2>
       </div>
 

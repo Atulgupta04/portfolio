@@ -8,7 +8,7 @@
   }
   
   .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(31, 45, 199, 0.8);
     text-align: center;
     padding: 10px 0;
     font-size: 50px;
@@ -37,11 +37,11 @@
     width: 50%;
     padding: 15px;
     margin-top: 20px;
-    background-color: blue;
+    /* background-color: blue; */
    border: 0;
     cursor: pointer;
     font-weight: bold;
-    color: #ffffff;
+    color: blue;
     transition: background-color 0.2s;
   }
 
@@ -56,3 +56,90 @@
   }
 
   
+  
+/*  ==========  MEDIUM DEVICES ===========*/
+@media screen and (max-width: 1024px) {
+  
+
+
+}
+
+/*  ==========  SMALL DEVICES ===========*/
+@media screen and (max-width: 600px) {
+
+  
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 12px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 7px 0;
+  font-size: 25px;
+}
+
+.ahreff{
+  color: black;
+}
+
+.ahreff:hover{
+  color: #2196F3;
+}
+
+.texth{
+  text-decoration: underline;
+}
+
+.card{  
+  box-shadow: 0 4px 8px 0 rgb(77, 67, 125);
+  padding: 12px;
+  text-align: center;
+  background-color: #f1f1f1;
+  }
+  
+.web-btn{
+  width: 20%;
+  margin-top: 10px;
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.859);
+  background: none;
+  /* border: 0; */
+  cursor: pointer;
+  font-weight: bold;
+  color: blue;
+  text-align: center;
+  /* transition: background-color 0.2s; */
+}
+.texth{
+  text-align: center;
+}
+
+.textt{
+  color: black;
+  
+}
+/* .button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 35px 20px 40px;
+  font-size: 15px;
+  margin: 2px 0px 7px 47px ;
+  text-align: center;
+}
+
+.button3 {border-radius: 8px;
+} */
+
+  .projectwork {
+    box-shadow: 0 4px 8px 0 rgba(6, 6, 66, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 8px
+  }
+
+}
